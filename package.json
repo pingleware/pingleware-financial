@@ -1,0 +1,56 @@
+{
+  "name": "@pingleware/financial",
+  "version": "1.0.0",
+  "description": "Common Financial functions",
+  "main": "index.js",
+  "files": [
+    "package.json",
+    "index.js",
+    "README.md"
+  ],
+  "scripts": {
+    "test:cumipmt": "node test/cumipmt.test.js",
+    "test:cumprinc": "node test/cumprinc.test.js",
+    "test:db": "node test/db.test.js",
+    "test:fv": "node test/fv.test.js",
+    "test:irr": "node test/irr.test.js",
+    "test:nper": "node test/nper.test.js",
+    "test:npv": "node test/npv.test.js",
+    "test:pmt": "node test/pmt.test.js",
+    "test:pv": "node test/pv.test.js",
+    "test:rate": "node test/rate.test.js",
+    "test:sln": "node test/sln.test.js",
+    "test:syd": "node test/syd.test.js",
+    "test:vlookup": "node test/vlookup.test.js",
+    "test:xirr": "node test/xirr.test.js",
+    "test:xnpv": "node test/xnpv.test.js"
+  },
+  "keywords": [
+    "PV",
+    "FV",
+    "NPV",
+    "IRR",
+    "PMT",
+    "RATE",
+    "NPER",
+    "CUMIPMT",
+    "CUMPRINC",
+    "XIRR",
+    "XNPV",
+    "SLN",
+    "DB",
+    "SYD",
+    "VLOOKUP"
+  ],
+  "author": "PRESSPAGE ENTERTAINMENT INC dba PINGLEWARE <maintainers@pingleware.work>",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://pingleware.support"
+  },
+  "homepage": "https://github.com/pingleware/pingleware-financial",
+  "private": false,
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "engineStrict": true
+}
